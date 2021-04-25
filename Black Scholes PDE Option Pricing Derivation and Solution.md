@@ -20,7 +20,7 @@ Construct a portfolio which value is 0: $V+f_sS+ f_pP = 0$, $f_s$ is the shares 
 
 By Ito's lemma, for $ V = V(t,S)$,
 $$
-\begin{split}
+\begin{equation}
 \begin{aligned}
 dV &= \frac{\partial V}{\partial t}dt+\frac{\partial V}{\partial S}dS+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}(dS)^2 \\
 &=\frac{\partial V}{\partial t}dt+\frac{\partial V}{\partial S}(\mu Sdt+\sigma SdB)+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}(dS)^2 \\
@@ -28,7 +28,7 @@ dV &= \frac{\partial V}{\partial t}dt+\frac{\partial V}{\partial S}dS+\frac{1}{2
 Infinitesimal]\\
 &=(\frac{\partial V}{\partial t}+\frac{\partial V}{\partial S}\mu S_t+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}\sigma^2 S^2）dt+\frac{\partial V}{\partial S}\sigma SdB[(dB)^2=dt]
 \end{aligned}
-\end{split}
+\end{equation}
 $$
 Substituting (1)(2) into the equation (3), then
 $$
@@ -38,7 +38,7 @@ and $f_p=-\frac{V+f_sS}{P}$, then
 $$
 (\frac{\partial V}{\partial t}+\frac{\partial V}{\partial S}\mu S_t+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}\sigma^2 S^2）dt+\frac{\partial V}{\partial S}\sigma SdB+f_s(\mu Sdt+\sigma SdB)-(V+f_sS)rdt=0\\
 \iff\\
-(\frac{\partial V}{\partial t}+\frac{\partial V}{\partial S}\mu S_t+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}\sigma^2 S^2 -rV+(\mu S-rS)f_s)dt+(\frac{\part V}{\part S}+f_s)\sigma SdB=0
+(\frac{\partial V}{\partial t}+\frac{\partial V}{\partial S}\mu S_t+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}\sigma^2 S^2 -rV+(\mu S-rS)f_s)dt+(\frac{\partial V}{\partial S}+f_s)\sigma SdB=0
 $$
 Because of the Delta hedging, coefficients of $dB$ and $dt$ should be 0, then
 $$
