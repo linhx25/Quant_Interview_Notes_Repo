@@ -12,7 +12,7 @@
 
 ### Derivation:
 
-The stock return is $\frac{dS_t}{S_t}= \mu dt+\sigma dB_t$, $B_t$ is a Brownian motion,$\iff dS_t= \mu S_tdt+\sigma S_tdB_t\quad(1)$;
+The stock return is ![](https://latex.codecogs.com/svg.latex?\frac{dS_t}{S_t}= \mu dt+\sigma dB_t), $B_t$ is a Brownian motion,$\iff dS_t= \mu S_tdt+\sigma S_tdB_t\quad(1)$;
 
 The bond return is $\frac{dP_t}{P_t}=rdt\iff dP_t=rP_tdt \quad(2)$;
 
