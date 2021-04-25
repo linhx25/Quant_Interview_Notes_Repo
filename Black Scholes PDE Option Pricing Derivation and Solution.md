@@ -21,13 +21,13 @@ Construct a portfolio which value is 0: $V+f_sS+ f_pP = 0$, $f_s$ is the shares 
 By Ito's lemma, for $ V = V(t,S)$,
 $$
 \begin{equation}
-\begin{align}
+\begin{aligned}
 dV &= \frac{\partial V}{\partial t}dt+\frac{\partial V}{\partial S}dS+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}(dS)^2  \\
 &=\frac{\partial V}{\partial t}dt+\frac{\partial V}{\partial S}(\mu Sdt+\sigma SdB)+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}(dS)^2  \\
 &=\frac{\partial V}{\partial t}dt+\frac{\partial V}{\partial S}(\mu Sdt+\sigma SdB)+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}(\sigma SdB)^2 [Ignore\quad dt's\quad 
 Infinitesimal]  \\
 &=(\frac{\partial V}{\partial t}+\frac{\partial V}{\partial S}\mu S_t+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}\sigma^2 S^2）dt+\frac{\partial V}{\partial S}\sigma SdB[(dB)^2=dt]
-\end{align}
+\end{aligned}
 \end{equation}
 $$
 Substituting (1)(2) into the equation (3), then
