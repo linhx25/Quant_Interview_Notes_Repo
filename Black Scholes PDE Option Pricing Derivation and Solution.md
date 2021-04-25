@@ -21,11 +21,11 @@ Construct a portfolio which value is 0: $V+f_sS+ f_pP = 0$, $f_s$ is the shares 
 By Ito's lemma, for $ V = V(t,S)$,
 $$
 \begin{split}
-dV &= \frac{\part V}{\part t}dt+\frac{\part V}{\part S}dS+\frac{1}{2}\frac{\part V^2}{\part^2 S}(dS)^2\\
-&=\frac{\part V}{\part t}dt+\frac{\part V}{\part S}(\mu Sdt+\sigma SdB)+\frac{1}{2}\frac{\part V^2}{\part^2 S}(dS)^2\\
-&=\frac{\part V}{\part t}dt+\frac{\part V}{\part S}(\mu Sdt+\sigma SdB)+\frac{1}{2}\frac{\part V^2}{\part^2 S}(\sigma SdB)^2 [Ignore\quad dt's\quad 
+dV &= \frac{\partial V}{\partial t}dt+\frac{\partial V}{\partial S}dS+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}(dS)^2\\
+&=\frac{\partial V}{\partial t}dt+\frac{\partial V}{\partial S}(\mu Sdt+\sigma SdB)+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}(dS)^2\\
+&=\frac{\partial V}{\partial t}dt+\frac{\partial V}{\partial S}(\mu Sdt+\sigma SdB)+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}(\sigma SdB)^2 [Ignore\quad dt's\quad 
 Infinitesimal]\\
-&=(\frac{\part V}{\part t}+\frac{\part V}{\part S}\mu S_t+\frac{1}{2}\frac{\part V^2}{\part^2 S}\sigma^2 S^2）dt+\frac{\part V}{\part S}\sigma SdB[(dB)^2=dt]
+&=(\frac{\partial V}{\partial t}+\frac{\partial V}{\partial S}\mu S_t+\frac{1}{2}\frac{\partial V^2}{\partial^2 S}\sigma^2 S^2）dt+\frac{\partial V}{\partial S}\sigma SdB[(dB)^2=dt]
 \end{split}
 $$
 Substituting (1)(2) into the equation (3), then
