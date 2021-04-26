@@ -48,3 +48,10 @@ $arctan x+C$, remember that $tan'x=sec^2x,\quad1+tan^2x=sec^2x$
 
 ## 10. Compute $\int x \ln x dx$ and $\int x e^x dx$
 $\frac 1 2 x^2\ln x-\frac 1 4 x^2+C$; $e^x(x-1)+C$
+
+## 11. Compute $\int x^n \ln xdx$
+$\frac 1 {n+1}x^{n+1}(\ln x - \frac 1 {n+1})+C,\, n\neq-1$
+$\frac 1 2 (\ln x)^2+C,\, n=-1$ 
+
+## 12. Compute $\int \ln^n xdx$
+let $I(n)=\int \ln^n xdx = x\ln^n x - nI(n-1)$, and $I(1) = x(\ln x -1)$, then we have $I(n) = \sum_{k=0}^n  \frac {(-1)^kn!}{(n-k)!}x\ln ^{n-k}x+C$
