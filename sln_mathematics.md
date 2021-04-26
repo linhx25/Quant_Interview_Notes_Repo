@@ -54,4 +54,4 @@ $\frac 1 {n+1}x^{n+1}(\ln x - \frac 1 {n+1})+C,\, n\neq-1$
 $\frac 1 2 (\ln x)^2+C,\, n=-1$ 
 
 ## 12. Compute $\int \ln^n xdx$
-let $I(n)=\int \ln^n xdx = x\ln^n x - nI(n-1)$, and $I(1) = x(\ln x -1)$, then we have $I(n) = \sum_{k=0}^n  \frac {(-1)^kn!}{(n-k)!}x\ln ^{n-k}x+C$
+Let $I(n)=\int \ln^n xdx = x\ln^n x - nI(n-1)$, and $I(1) = x(\ln x -1)$, then we have $I(n) = \sum_{k=0}^n  \frac {(-1)^kn!}{(n-k)!}x\ln ^{n-k}x+C$
