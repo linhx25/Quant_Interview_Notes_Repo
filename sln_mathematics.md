@@ -43,6 +43,8 @@ With the convergence prooved, we can calculate the limit of $x_n = \sqrt 2^{x_{n
 (2)$\sum_{k=1}^{\infty}\frac 1 k$, first proove $\int_1^n\frac 1 x dx<-\frac 1 n + \sum_{k=1}^n\frac 1 k$, then we have $\sum_{k=1}^n\frac 1 k >\ln n\, ,\forall n$, then we show the divergence.
 (3)$\sum_{k=1}^{\infty}\frac 1 {k\ln k}$ should be divergent using similar proof as (2).
 
-## 9. Compute $\int \frac 1 {1+x^2}$
+## 9. Compute $\int \frac 1 {1+x^2}dx$
+$arctan x+C$, remember that $tan'x=sec^2x,\quad1+tan^2x=sec^2x$
 
 ## 10. Compute $\int x \ln x dx$ and $\int x e^x dx$
+$\frac 1 2 x^2\ln x-\frac 1 4 x^2+C$; $e^x(x-1)+C$
