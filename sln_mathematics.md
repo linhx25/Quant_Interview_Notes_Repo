@@ -56,4 +56,16 @@ $\frac 1 2 (\ln x)^2+C,\, n=-1$
 ## 12. Compute $\int \ln^n xdx$
 Let $I(n)=\int \ln^n xdx = x\ln^n x - nI(n-1)$, and $I(1) = x(\ln x -1)$, then we have $I(n) = \sum_{k=0}^n  \frac {(-1)^kn!}{(n-k)!}x\ln ^{n-k}x+C$
 
-## 13.
+## 13. Solve the ODE: $y''-4y'+4y=1$
+Solve the homogeneous characteristic equation: $\lambda^2 - 4\lambda+4=0$, we have multiple real roots $\lambda_{1,2}=2$, which gives $e^{2x},xe^{2x}$ are the solutions to the homogeneous ODE. We also find $y=\frac 1 4$ is a special solution of the ODE, hence we have $c_1 e^{2x}+c_2 xe^{2x}+\frac 1 4$ is the solution.
+
+## 14. Find f st. $f'(x)=f(x)(1-f(x))$
+(1)$y=0\, or\, y=1$ are 2 trival solutions
+(2)separate dy/dx, we solve $\frac {dy} {-y^2+y} = dx$, then $y=1+\frac 1{Ce^x-1}$, $C$ is const.
+
+## 15. Derive BS-PDE
+Shown in the [BS-PDE](https://github.com/linhx25/Quant_Interview_Notes_Repo/blob/master/Black%20Scholes%20PDE%20Option%20Pricing%20Derivation%20and%20Solution.md)
+
+
+# Linear Algebra
+## 1.
